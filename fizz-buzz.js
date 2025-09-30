@@ -1,5 +1,5 @@
 function printFizzBuzz(n, fizz = 3, buzz = 5) {
-    if (fizz <= 0 || buzz <= 0) {
+    if (n <= 0 || fizz <= 0 || buzz <= 0) {
         console.log("fizz and buzz must be positive integers");
         return;
     }

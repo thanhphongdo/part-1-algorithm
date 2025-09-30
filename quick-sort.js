@@ -31,7 +31,7 @@ console.log(quickSort(array).join(' '));
 console.log(quickSort(array, true).join(' '));
 
 /*
-I this the Quick Sort is so good, but it not stable, because the complexity can be O(n^2) in the worst case
+I think the Quick Sort is so good, but it not stable, because the complexity can be O(n^2) in the worst case
 Example for the worst case: you need to sort the array [1,2,3,4,5,6,7,8,9,10] desc
 As my knowledge, the Merge Sort is stable and the complexity is O(n log n) in all cases, 
 this is the reason why Merge Sort is implemented in a large number of programming languages standard libraries
